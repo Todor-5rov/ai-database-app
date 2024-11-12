@@ -1,0 +1,51 @@
+---
+
+### **`.gitignore`**
+
+This `.gitignore` file is designed to ignore unnecessary files and directories for both the frontend (React) and backend (Python) parts of your project.
+
+```gitignore
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+venv/
+*.sqlite3
+.env
+
+# Flask and Python bytecode
+instance/
+*.log
+
+# React
+node_modules/
+build/
+coverage/
+*.env
+*.eslintcache
+*.cache
+*.gitmodules
+
+# Docker
+*.dockerignore
+docker-compose.override.yml
+
+# IDEs and Editors
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Environment variables
+.env
+
+# pytest
+.cache/
+
+# VSCode settings
+.vscode/

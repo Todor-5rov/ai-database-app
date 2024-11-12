@@ -1,0 +1,6 @@
+Flask==2.3.2
+Flask-SQLAlchemy==3.0.2
+SQLAlchemy==2.0.17
+flask-cors==5.0.0  # Update to the latest version
+python-dotenv==0.21.1
+requests==2.31.0pi
